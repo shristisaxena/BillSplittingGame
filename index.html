@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bill Splitting App!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="AppContainer">
+      <h1>Bill Splitting App!</h1>
+      <p>
+        Welcome to the Bill Splitter Challenge!!
+        <br /> 
+        The mission is to split a total bill among a group of friends. Each friend will contribute an equal share and it calculates the exact amount for each person.
+      </p>
+
+      <input type="number" id="amount" placeholder="Enter Total Bill Amount!" />
+
+      <input type="number" id="friends" placeholder="Enter Total Friends!" />
+
+      <button onclick="splitBill()"><b>Split Bill Now!</b></button>
+
+      <h3 id="result">Result:  ₹ 0 Per Person</h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
